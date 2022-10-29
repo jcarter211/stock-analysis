@@ -36,12 +36,12 @@ While the original and refactored run times are both quick, it is important to n
 
 To refactor the code, there are a few changes we needed to make. Below is an image of the original code used to produce the total return for each ticker. 
 <p align="center">
-  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_Code.png">
+  <img width="600" height="400" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_Code.png">
 </p>
 As you can see in this code, we looped through all of the tickers to find the total volume of each. With two arrays created (a starting and ending Price array), we were able to find the percent return. 
 
 <p align="center">
-  <img width="400" height="300" src="hhttps://github.com/jcarter211/stock-analysis/blob/main/Refactored_Code.png">
+  <img width="600" height="400" src="https://github.com/jcarter211/stock-analysis/blob/main/Refactored_Code.png">
 </p>
 In the refactored code, we created a ticker index. The tickervolume also had to refer to the ticker index to find the volume, starting price, and ending price. 
 
