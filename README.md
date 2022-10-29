@@ -54,3 +54,7 @@ In the refactored code, we created a ticker index. The tickervolume also had to 
     * Refactoring code can be difficult. It can produce errors if not written correctly, which does not allow the code to produce the outcome.
     * Refactoring code can be time consuming. Depedning on the task, it may not be worth the additional time. 
 ### How These Advantages and Disadvantages Related to This Dataset 
+  * Advantages 
+    * This dataset benefited from both of the advantages listed above. The execution ran more smoothly and can be used to analyze a larger amount of stocks. Steve will be able to apply this code when gaining new clients and for his parents. 
+  * Disadvantages 
+    * I would say that the two disadvantages listed above also applied to this dataset. It was diddifult thinking through how to refactor the code, and it took me a good amount of time to implement the changes needed. I had to go through trial and error to make sure I used to correct steps and coding statements. 
