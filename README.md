@@ -6,8 +6,11 @@ Steve recently graduated with a degree in finance. His parents are showing their
 ## Results 
 There are a few key results after refactoring the original code. The time to run the code to perform an analysis of both the 2017 and 2018 stocks was reduced. 
 
-### 2017 Run Times 
-![Original_2017.png](./Original_2017.png)
+### 2017 Run Times
+<p align="center">
+  <img width="460" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_2017.png">
+</p>
+
 
 * As you can see in the image above, it took .265625 seconds to run the original code for the year 2017. 
 ![Refactored_2017.png](Refactored_2017.png)
