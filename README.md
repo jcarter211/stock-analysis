@@ -8,19 +8,27 @@ There are a few key results after refactoring the original code. The time to run
 
 ### 2017 Run Times
 <p align="center">
-  <img width="460" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_2017.png">
+  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_2017.png">
 </p>
 
 
 * As you can see in the image above, it took .265625 seconds to run the original code for the year 2017. 
-![Refactored_2017.png](Refactored_2017.png)
+<p align="center">
+  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Refactored_2017.png">
+</p>
 
 * In the refactored code, the code ran in .0703125 seconds. 
+
 ### 2018 Run Times 
-![Original_2018](./Original_2018.png)
+<p align="center">
+  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_2018.png">
+</p>
+
 
 * The original 2018 code ran in .265625 seconds, which is the same as the 2017 code. 
-![Refactored_2018](./Refactored_2018.png)
+<p align="center">
+  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Refactored_2018.png">
+</p>
 
 * The refactored run time for 2018 stayed the say as the 2017 refactored run time of .0703125 seconds. 
 ### Analysis of the 2017 and 2018 Run Times 
