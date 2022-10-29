@@ -34,8 +34,23 @@ There are a few key results after refactoring the original code. The time to run
 ### Analysis of the 2017 and 2018 Run Times 
 While the original and refactored run times are both quick, it is important to note that we are looking at a dataset of 12 stocks. If we were to have 100 stocks, this tiem difference would help our work and analyzation move forward at the most efficient pace. Trading and buying stocks can be realtively fast-paced in the real-world. We would want the quickest run time possible. 
 
-compare the performance between 2018 and 2018, as well as the execution times of the original script and the refactored script.
+To refactor the code, there are a few changes we needed to make. Below is an image of the original code used to produce the total return for each ticker. 
+<p align="center">
+  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_Code.png">
+</p>
+As you can see in this code, we looped through all of the tickers to find the total volume of each. With two arrays created (a starting and ending Price array), we were able to find the percent return. 
+
+<p align="center">
+  <img width="400" height="300" src="hhttps://github.com/jcarter211/stock-analysis/blob/main/Refactored_Code.png">
+</p>
+In the refactored code, we created a ticker index. The tickervolume also had to refer to the ticker index to find the volume, starting price, and ending price. 
+
 ## Summary 
 ### Advantages and Disadvantages to Refactoring Code in General 
-  * There are a few advantages of refactoring code. 
+  * Advantages
+    * Refactoring code can make the execution run more quickly as we can see in the example above. 
+    * It can also be used to analyze a larger dataset more easily. 
+  * Disadvantages 
+    * Refactoring code can be difficult. It can produce errors if not written correctly, which does not allow the code to produce the outcome.
+    * Refactoring code can be time consuming. Depedning on the task, it may not be worth the additional time. 
 ### How These Advantages and Disadvantages Related to This Dataset 
