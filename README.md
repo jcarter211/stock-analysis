@@ -8,26 +8,26 @@ There are a few key results after refactoring the original code. The time to run
 
 ### 2017 Run Times
 <p align="center">
-  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_2017.png">
+  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Resources/Green_Stocks_2017.png">
 </p>
 
 
 * As you can see in the image above, it took .265625 seconds to run the original code for the year 2017. 
 <p align="center">
-  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Refactored_2017.png">
+  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png">
 </p>
 
 * In the refactored code, the code ran in .0703125 seconds. 
 
 ### 2018 Run Times 
 <p align="center">
-  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_2018.png">
+  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Resources/Green_Stocks_2018.png">
 </p>
 
 
 * The original 2018 code ran in .265625 seconds, which is the same as the 2017 code. 
 <p align="center">
-  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Refactored_2018.png">
+  <img width="400" height="300" src="https://github.com/jcarter211/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png">
 </p>
 
 * The refactored run time for 2018 stayed the say as the 2017 refactored run time of .0703125 seconds. 
@@ -36,12 +36,12 @@ While the original and refactored run times are both quick, it is important to n
 
 To refactor the code, there are a few changes we needed to make. Below is an image of the original code used to produce the total return for each ticker. 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/jcarter211/stock-analysis/blob/main/Original_Code.png">
+  <img width="600" height="400" src="https://github.com/jcarter211/stock-analysis/blob/main/Resources/Original_Code.png">
 </p>
 As you can see in this code, we looped through all of the tickers to find the total volume of each. With two arrays created (a starting and ending Price array), we were able to find the percent return. 
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/jcarter211/stock-analysis/blob/main/Refactored_Code.png">
+  <img width="600" height="400" src="https://github.com/jcarter211/stock-analysis/blob/main/Resources/Refactored_Code.png">
 </p>
 In the refactored code, we created a ticker index. The tickervolume also had to refer to the ticker index to find the volume, starting price, and ending price. 
 
