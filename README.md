@@ -57,4 +57,4 @@ In the refactored code, we created a ticker index. We then related the ticker vo
   * Advantages 
     * This dataset benefited from both of the advantages listed above. The execution ran more smoothly and can be used to analyze a larger amount of stocks. Steve will be able to apply this code when gaining new clients and for his parents. 
   * Disadvantages 
-    * I would say that the two disadvantages listed above also applied to this dataset. It was diddifult thinking through how to refactor the code, and it took me a good amount of time to implement the changes needed. I had to go through trial and error to make sure I used to correct steps and coding statements. 
+    * I would say that the two disadvantages listed above also applied to this dataset. It was diddifult thinking through how to refactor the code, and it took time to implement the changes needed. I had to go through trial and error to make sure I used to correct steps and coding statements. 
