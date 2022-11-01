@@ -43,7 +43,7 @@ To analyze each stock or ticker in the original code, we found the total volume 
 <p align="center">
   <img width="600" height="400" src="https://github.com/jcarter211/stock-analysis/blob/main/Resources/Refactored_Code.png">
 </p>
-In the refactored code, we created a ticker index. We then related the ticker volume, starting price, and ending price to the ticker index. Once again, we had to set each ticker volume to 0; however this time, we had to use a for loop to set all possible tickers' volumes to 0. Using the tickr index, the code could more easily applied to the dataset. 
+In the refactored code, we created a ticker index, which enabled the code to find the correct index within our arrays. We then related the ticker volume, starting price, and ending price to the ticker index. Once again, we had to set each ticker volume to 0; however this time, we had to use a for loop to set all possible tickers' volumes to 0. Using the tickr index, the code could more easily applied to the dataset. 
 
 ## Summary 
 ### Advantages and Disadvantages to Refactoring Code in General 
