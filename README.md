@@ -38,12 +38,12 @@ To refactor the code, there are a few changes we needed to make. Below is an ima
 <p align="center">
   <img width="600" height="400" src="https://github.com/jcarter211/stock-analysis/blob/main/Resources/Original_Code.png">
 </p>
-To analyze each stock or ticker in the original code, we found the total volume and the return percentage. To find the return, the code found the starting price and ending price. After finding these two values, we divided the ending price by the starting price and then subtracted 1 to find the percentage. We also color coded the results to more easily identify positive vs. negative return values. 
+To analyze each stock or ticker in the original code, we found the total volume and the return percentage. To find the total volume, we set our variable equal to a set of tickers we defined from the data set. From there we had the code, run through the tickers. We also set the total volume of the ticker to 0. We added the total volume back to the ticker by telling the code that if the first row equals the ticker add the total volume amount. To find the return, we found the starting price and ending price using an if statement that helped the code find the first and last price in each ticker. After finding these two values, we divided the ending price by the starting price and then subtracted 1 to find the percentage. We also color coded the results to more easily identify positive vs. negative return values. 
 
 <p align="center">
   <img width="600" height="400" src="https://github.com/jcarter211/stock-analysis/blob/main/Resources/Refactored_Code.png">
 </p>
-In the refactored code, we created a ticker index. We then related the ticker volume, starting price, and ending price to the ticker index. This allows the code to be more easily applied to the dataset. 
+In the refactored code, we created a ticker index. We then related the ticker volume, starting price, and ending price to the ticker index. Once again, we had to set each ticker volume to 0; however this time, we had to use a for loop to set all possible tickers' volumes to 0. Using the tickr index, the code could more easily applied to the dataset. 
 
 ## Summary 
 ### Advantages and Disadvantages to Refactoring Code in General 
